@@ -5,7 +5,8 @@ A raspberry pi digital photo frame
 
 Add the following to the end of your `~/.bashrc` file to allow the dsiplay to be controlled over SSH
 
-```if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+```
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
 	export DISPLAY=:0
 fi
 ```
