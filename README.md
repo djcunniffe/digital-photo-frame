@@ -2,6 +2,7 @@
 A raspberry pi digital photo frame
 
 ## Set-up
+Note, the following assumes you are using the default `pi` user and have added these scripts to a `\pi\Scripts` folder.
 
 Add the following to the end of your `~/.bashrc` file to allow the dsiplay to be controlled over SSH
 
